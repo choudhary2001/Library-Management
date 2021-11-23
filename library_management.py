@@ -5,7 +5,7 @@ class Library:
     def displayAvailableBooks(self):
         print("Books present in this library are: ")
         for book in self.books:
-            print(" *" + book)
+            print(" * " + book)
 
     def borrowBook(self, bookName):
         if bookName in self.books:
